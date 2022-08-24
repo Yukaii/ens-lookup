@@ -1,0 +1,40 @@
+{
+  "name": "@yukaii/ens-lookup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ava",
+    "fmt": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ava/typescript": "^3.0.1",
+    "@types/cheerio": "^0.22.31",
+    "@types/node": "^18.7.12",
+    "ava": "^4.3.1",
+    "cross-fetch": "^3.1.5",
+    "node-fetch": "^3.2.10",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "cross-fetch": "^3.1.5",
+    "node-fetch": "^3.2.10"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
