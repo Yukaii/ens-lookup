@@ -1,7 +1,7 @@
 {
   "name": "@yukaii/ens-lookup",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A package for looking up ENS names",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
