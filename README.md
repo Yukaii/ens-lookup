@@ -2,6 +2,12 @@
 
 This is a library for looking up ENS domain for address or reverse lookup by crawling the Etherscan website.
 
+## Install
+
+```bash
+npm install @yukaii/ens-lookup
+```
+
 ## Usage
 
 ```js
