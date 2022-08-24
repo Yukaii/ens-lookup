@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "ava",
-    "fmt": "prettier --write ."
+    "fmt": "prettier --write .",
+    "lint": "prettier --check ."
   },
   "keywords": [],
   "author": "",
